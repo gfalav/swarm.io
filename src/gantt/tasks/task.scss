@@ -1,0 +1,55 @@
+.task {
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0px 1px 1px;
+    margin: 10px;
+}
+
+.task-title {
+    border-style: solid;
+    border-color: black;
+    border-width: 0px 1px 0px 0px;
+    line-height: 34px;
+    height: 34px;
+    padding: 0px 2px;
+    text-align: center;
+}
+
+.task-order {
+    width: 46px;
+}
+
+.task-name {
+    width: 232px;
+}
+
+.task-fstart {
+    width: 72px;
+}
+
+.task-lenght {
+    width: 36px;
+}
+
+.task-owner {
+    width: 150px;
+}
+
+.task-predecessor {
+    width: 46px;
+}
+
+.task-graph {
+
+}
+
+.graph-utime {
+    border-style: solid;
+    border-color: black;
+    border-width: 0px 1px 0px 0px;
+    line-height: 34px;
+    height: 34px;
+    width: 10px;
+    background-color: rgb(192, 213, 214);
+}
