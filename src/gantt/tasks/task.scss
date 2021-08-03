@@ -2,14 +2,14 @@
     display: flex;
     border-style: solid;
     border-color: black;
-    border-width: 1px 0px 1px 1px;
+    border-width: 0px 0px 0px 1px;
     margin: 10px;
 }
 
 .task-title {
     border-style: solid;
     border-color: black;
-    border-width: 0px 1px 0px 0px;
+    border-width: 1px 1px 1px 0px;
     line-height: 34px;
     height: 34px;
     padding: 0px 2px;
@@ -41,15 +41,33 @@
 }
 
 .task-graph {
-
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
 }
 
 .graph-utime {
     border-style: solid;
     border-color: black;
-    border-width: 0px 1px 0px 0px;
+    border-width: 1px 1px 1px 0px;
     line-height: 34px;
     height: 34px;
-    width: 10px;
+    width: 12px;
     background-color: rgb(192, 213, 214);
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+.tasklenghtgraph {
+    width: 100px;
+    background-color: rgb(71, 250, 241);
+    position: absolute;
+    top: 9px;
+    left: 50px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    height: 16px;
 }
